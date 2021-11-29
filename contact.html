@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="contact.css">
+</head>
+<body>
+    
+    <header>
+        <!-- Navigation menu -->
+        <section id="navigation">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li>About</li>
+                    <li>Collection</li>
+                    <li>Author</li>
+                    <li>Portal</li>
+                </ul>
+            </nav>
+
+            <div id="network">
+                <a><i class="fab fa-facebook"></i></a>
+                <a><i class="fab fa-twitter"></i></a>
+                <input type="button" value="Subscribe">
+            </div>
+        </section>
+
+        <!-- Contact title -->
+        <h1>CONTACT</h1>
+
+    </header>
+
+    <main>
+
+        <!-- Formulaire de contact -->
+        <form action="#" method="get">
+
+            <!-- Identity -->
+            <section class="identity">
+            
+                <div class="col">
+
+                    <label for="firstName">First Name <span>*</span></label>
+                    <input type="text" id="firstName" name="btn_firstName" required>
+
+                    <label for="company">Company</label>
+                    <input type="text" id="company" name="btn_company">
+
+                    <label for="email">Email adress <span>*</span></label>
+                    <input type="text" id="email" name="btn_email" placeholder="email" required>
+
+                </div>
+
+
+                <div class="col">
+
+                    <label for="phone">Phone Number <span>*</span></label>
+                    <input type="text" id="phone" name="btn_phone" placeholder="phone" required>
+
+                    <label for="lastName">Last Name <span>*</span></label>
+                    <input type="text" id="lastName" name="btn_lastName" required>
+
+                    <label for="url">Your Website <span>Please include http://</span></label>
+                    <input type="text" id="url" name="btn_url" placeholder="url">
+
+                </div>
+
+            </section>
+
+            <!-- Radio button question one -->
+            <section class="Q_One">
+
+                <p>When is the best time of day to reach you?</p>
+                <p>
+                    <input type="radio" id="morning" name="btn_morning" value="morning">
+                    <label for="morning">Morning</label>
+                </p>
+
+                <p>
+                    <input type="radio" id="evening" name="btn_evening" value="evening" checked>
+                    <label for="evening">Evening</label>
+                </p>
+
+            </section>
+
+            <!-- Radio button question two -->
+            <section class="Q_Two">
+          
+                <p> Would you like to receive our email newsletter?</p>
+                <p>
+                    <input type="checkbox" id="sure" name="submit" value="sure">
+                    <label for="sure">Sure!</label>
+                 </p>
+            
+            </section>
+
+            <!-- Submit button -->
+            <input type="submit" value="Submit" id="submit">
+
+        </form>
+
+    </main>
+
+
+    <footer id="FG">
+        <section>
+            <p>Ghost <i class="far fa-copyright"></i> 2021</p>
+
+            <nav>
+                <ul>
+                    <li>Data & privacy .</li>
+                    <li><a href="contact.html">Contact</a> .</li>
+                    <li>Contribute -</li>
+                </ul>
+            </nav>
+
+            <p>Powered by Ghost</p>
+        </section>
+    </footer>
+
+
+    <!-- Icon link -->
+    <script src="https://kit.fontawesome.com/ebaa7fdcf0.js" crossorigin="anonymous"></script>
+</body>
+</html>

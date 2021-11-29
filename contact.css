@@ -1,0 +1,158 @@
+@font-face {
+    font-family: "Segoe_UI";
+    src: url("./Fonts/Segoe_UI.woff");
+}
+@font-face {
+    font-family: "Segoe_UI_Bold";
+    src: url("./Fonts/Segoe_UI_Bold.woff");
+}
+@font-face {
+    font-family: "Segoe_UI_Bold_Italic";
+    src: url("./Fonts/Segoe_UI_Bold_Italic.woff");
+}
+@font-face {
+    font-family: "Segoe_UI_Italic";
+    src: url("./Fonts/Segoe_UI_Italic.woff");
+}
+
+/* GENERALE ...........................................................*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe_UI";
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+input {
+    padding: 0.3rem;
+}
+input[type="submit"] {
+    width: 5rem;
+    padding: 0.4rem;
+    border: transparent;
+    cursor: pointer;
+    color: white;
+    background-color: #2901c2;
+}
+label[for="url"] span {
+    color: black;
+    font-size: 0.7rem;
+}
+p{
+    margin-bottom: 0.5rem;
+}
+
+/* Header ...............................................................*/
+header {
+    padding-top: 0.5rem;
+    padding-bottom: 3rem;
+    color: white;
+    background-image: url(./Images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+    /* Navigation section...................*/
+    #navigation {
+        display: flex;
+        justify-content: space-around;
+    }
+        /* Nav bar..........*/
+        #navigation nav ul li {
+            display: inline;
+            margin-right: 0.5rem;
+        }
+        /* Network*/
+        #network {
+            display: flex;
+
+        }
+        #network a{
+            margin-right: 0.5rem;
+        }
+        #network input {
+            width: 4rem;
+            border-radius: 1rem;
+            border: none;
+            font-size: 8pt;
+        }
+    /* website title......................*/
+    header h1 {
+        width: 100%;
+        padding: 2rem;
+        text-align: center;
+        font-size: 18pt;
+    }
+
+/* MAIN................................. */
+main {
+    padding: 10rem 0;
+}
+
+form {
+    width: 80%;
+    margin: auto;
+    padding: 2rem;
+    padding-bottom: 1rem;
+    border: 20px solid;
+    border-image: url(./Images/background.jpg) 10;
+}
+span {
+    color: red;
+}
+/*  */
+.identity {
+    display: flex;
+    margin-bottom: 0.5rem;
+}
+.identity label, .Q_One p:first-child, .Q_Two p:first-child {
+     font-family: "Segoe_UI_Bold";
+}
+/*  */
+.col {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.col input {
+    margin-right: 0.2rem;
+    margin-bottom: 0.5rem;
+}
+.col:first-child {
+    margin-right: 2rem;
+}
+.col label {
+    margin-bottom: 0.2rem;
+}
+
+/*  */
+.Q_One, .Q_Two {
+    margin-bottom: 0.5rem;
+}
+.Q_Two p:first-child{
+    margin-bottom: 0.8rem;
+}
+
+/* FOOTER ................................................................*/
+#FG {
+    height: 8rem;
+    padding-top: 1rem;
+    background-color: black;
+}
+
+#FG section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    color: white;
+}
+
+#FG section ul li {
+    display: inline;
+    margin-right: 1rem;
+}
